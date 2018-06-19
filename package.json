@@ -4,7 +4,9 @@
   "description": "Ionic Framework main site - IonicFramework.com",
   "main": "Gulpfile.js",
   "scripts": {
-    "heroku-postbuild": "gulp build.clean && gulp slug.prep"
+    "heroku-postbuild": "gulp build.clean && gulp slug.prep",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "engines": {
     "node": "6.9.2"
@@ -60,6 +62,8 @@
     "mkdirp": "^0.5.1",
     "psi": "^1.0.4",
     "run-sequence": "^1.2.2",
-    "tiny-lr": "0.0.5"
-  }
+    "tiny-lr": "0.0.5",
+    "snyk": "^1.83.0"
+  },
+  "snyk": true
 }
