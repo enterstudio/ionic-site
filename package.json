@@ -30,7 +30,7 @@
     "del": "^2.2.2",
     "event-stream": "^3.3.1",
     "express": "^4.12.3",
-    "express-ab": "^0.7.0",
+    "express-ab": "^1.0.0",
     "gulp": "^3.8.8",
     "gulp-autoprefixer": "1.0.0",
     "gulp-cache": "^0.4.1",
